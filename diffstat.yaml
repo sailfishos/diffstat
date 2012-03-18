@@ -1,0 +1,21 @@
+Name: diffstat
+Summary: A utility which provides statistics based on the output of diff
+Version: 1.46
+Release: 1
+Group: Development/Tools
+License: MIT
+URL: http://invisible-island.net/diffstat
+Sources:
+    - ftp://invisible-island.net/diffstat/%{name}-%{version}.tgz
+ExtraSources:
+    - COPYING;/usr/share/doc/diffstat/
+Description: |
+    The diff command compares files line by line.  Diffstat reads the
+    output of the diff command and displays a histogram of the insertions,
+    deletions and modifications in each file.  Diffstat is commonly used
+    to provide a summary of the changes in large, complex patch files.
+    
+    Install diffstat if you need a program which provides a summary of the
+    diff command's output.
+
+Configure: configure

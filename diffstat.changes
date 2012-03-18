@@ -1,0 +1,15 @@
+* Wed Dec 24 2008 Arjan van de Ven <arjan@linux.intel.com> 1.46
+- Update to version 1.46
+        add "-S", "-D" and "-m" options to provide a way to show the amount
+        of difference relative to the total sizes of the files.
+
+        add "-q" option (Debian #488248, patch by Greg Norris).
+
+	add "-b" option (Debian #379380, patch by Greg Norris).
+
+
+* Tue Dec 16 2008 Arjan van de Ven <arjan@linux.intel.com> 1.43
+- Create standardized spec file
+
+* Thu Dec 11 2008 Anas Nashif <anas.nashif@intel.com> 1.43
+- initial import into moblin
